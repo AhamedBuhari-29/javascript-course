@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>function</title>
+  </head>
+  <body>
+    <script>
+      /* function lets reuse the code
+      function functionName(){
+        function body
+      }
+      calling function
+      functionName();
+      
+      function function1(){
+        console.log('Hello');
+        console.log(2+2);
+      }
+      function1();
+      */
+     //parameter :passing value on to the function.
+     function calculateTax(cost,taxPercent=0.1){
+      console.log(taxPercent);
+      console.log(cost*taxPercent);
+
+     }
+     calculateTax(600,0.1);
+     calculateTax(300);
+
+      
+    </script>
+  </body>
+</html>

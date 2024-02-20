@@ -1,0 +1,18 @@
+
+body{
+  background-color: black;
+}
+.heading-para{
+  color: white;
+}
+.calci-preview{
+  background-color: black;
+}
+.button-num{
+  background-color: beige;
+  border: 1px lightgray solid;
+  height: 32px;
+  width: 32px;
+  color: dark black;
+  border-radius: 16px;
+}
